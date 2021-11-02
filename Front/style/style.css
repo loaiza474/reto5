@@ -1,0 +1,49 @@
+:root {
+    --very-light-pink: #c7c7c7;
+    --hospital-green: #acd9b2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px
+}
+.label {
+    background-color: var(--text-input-field);
+    border: none;
+    border-radius: 8px;
+    height: 32px;
+    font-size: var(--md);
+    padding: 6px;
+    margin: 2px;
+}
+.primary-button {
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 30%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 40px;
+    margin-bottom: 12px;
+}
+.all {
+    display: grid;
+    place-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+.second-botton{
+    background-color: skyblue;
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 30%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 40px;
+    margin-bottom: 12px;
+}
+    .ph-center::-webkit-input-placeholder {
+    text-align: center;
+    line-height: 100px;/* Centrado vertical */
+}
